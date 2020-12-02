@@ -1,0 +1,38 @@
+
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/vistas/includes/cabecera.jsp"%>
+<!-- Include -->
+    <!--MAIN-->
+       <h1  style="margin-top:2em;text-align: center">Lista de productos</h1>
+    <div class="row">
+        <div class="col-md-10 col-lg-10 mx-auto">
+            <table class="table" id="miTabla">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>NOMBRE</th>
+                        <th>PRECIO</th>
+                        <th>DESCUENTO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <c:forEach items="${libros}" var="libro">
+                    <tr>
+                        <td>${libro.id}</td>
+                        <td>${libro.nombre}</td>
+                        <td>${libro.precio}</td>
+                        <td>${libro.descuento}</td>
+                    </tr>
+                </c:forEach>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br>
+    <br>
+     <!--MAIN-->
+
+<!-- Include -->
+<%@ include file="/WEB-INF/vistas/includes/registrarLibro.jsp"%>
+<%@ include file="/WEB-INF/vistas/includes/pie.jsp"%>
+<!-- Include -->

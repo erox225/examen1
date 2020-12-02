@@ -1,0 +1,38 @@
+
+html {
+
+}
+body {
+        display: grid;
+    justify-items: stretch;
+    height: 100vh;
+}
+#fila-ficha{
+    margin: 1em 0px;
+}
+#logo{
+    max-width: 225px;
+    max-height: 80px;
+}
+
+#subir-boton{
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
+
+#subir-boton > a{
+    font-size: 1.5em;
+}
+
+@media (min-width: 576px) {
+  #subir-boton {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  #subir-boton {
+    display: block;
+  }
+}

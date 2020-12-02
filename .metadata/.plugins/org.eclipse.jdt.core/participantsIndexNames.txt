@@ -1,0 +1,23 @@
+INDEX VERSION 1.131
+C:\Users\RoboCop\Desktop\EXAMEN_FINAL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2470524963.index
+\vending\src
+C:\Users\RoboCop\Desktop\EXAMEN_FINAL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3217325728.index
+\uf2218_peliculas\src
+C:\Users\RoboCop\Desktop\EXAMEN_FINAL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3508143111.index
+\Examen_servlet\src
+C:\Users\RoboCop\Desktop\EXAMEN_FINAL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4061650718.index
+\uf2218\src
+C:\Users\RoboCop\Desktop\EXAMEN_FINAL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3819242938.index
+\examen_servlet\src
+C:\Users\RoboCop\Desktop\EXAMEN_FINAL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3800280548.index
+\vending\src
+C:\Users\RoboCop\Desktop\EXAMEN_FINAL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3966835832.index
+\uf2218_peliculas\src
+C:\Users\RoboCop\Desktop\EXAMEN_FINAL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1722847464.index
+\examen_servlet\src
+C:\Users\RoboCop\Desktop\EXAMEN_FINAL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\927311467.index
+\uf2218\src
+C:\Users\RoboCop\Desktop\EXAMEN_FINAL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2361273939.index
+\Examen_servlet\src
+C:\Users\RoboCop\Desktop\EXAMEN_FINAL\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4176042524.index
+\uf2218_peliculas\src

@@ -1,0 +1,55 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+
+    <!--BODY-->
+    <form style="margin-top: 6em;" action="servletLibro" method="post" class="needs-validation">
+       <h1  style="text-align: center">Registrar producto</h1>
+        <div class="form-row col-md-12 col-lg-6 mx-auto">
+            <div class="form-group col-md-12">
+                <label for="inputEmail4">Nombre</label>
+<%-- 						<input type="text" class="form-control ${(libro_error.nombre != null && empty libro_error.nombre) ? 'is-invalid' : '' }" id="inputEmail4" name="nombre" value="${libro_error.nombre}" > --%>
+							<input type="text" class="form-control ${(libro_error.nombre != null ) ? 'is-invalid' : '' }" id="inputEmail4" name="nombre" value="${libro_error.nombre}" >
+						 <div class="invalid-feedback">
+							${libro_error.errorNombre}
+     					 </div>
+            </div>
+        </div>
+        <div class="form-row  col-md-12 col-lg-6 mx-auto">
+            <div class="form-group col-md-6">
+                <label for="inputPrecio">Precio</label>
+           		     <c:choose>
+					<c:when test="${libro_error.errorPrecio != null}">
+						 <input  class="form-control  is-invalid" id="inputPrecio" type="text" name="precio"  value="${libro_error.precio}">
+						  <div class="invalid-feedback">
+							${libro_error.errorPrecio}
+     					 </div>
+					</c:when>
+						<c:otherwise>
+						 <input  class="form-control " id="inputPrecio" type="text"  name="precio"  value="${libro_error.precio}">
+					</c:otherwise>
+				</c:choose>
+            </div>
+			<div class="form-group col-md-6">
+                <label for="inputOferta">Descuento</label>
+                 <c:choose>
+					<c:when test="${libro_error.errorDescuento != null}">
+						 <input  class="form-control  is-invalid" id="inputPrecio"  name="descuento"  value="${libro_error.descuento}">
+				          <div class="invalid-feedback">
+							${libro_error.errorDescuento}
+     					 </div>
+					</c:when>
+						<c:otherwise>
+						 <input  class="form-control" id="inputPrecio"  name="descuento" value="${libro_error.descuento}">
+					</c:otherwise>
+				</c:choose>
+           		
+            </div>
+        </div>
+
+        <div class="form-row  col-md-12 col-lg-6 mx-auto">
+            <button type="submit" class="btn btn-primary ">Registrar</button>
+        </div>
+
+    </form>
+    <!--BODY-->
+

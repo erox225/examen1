@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body class="container-fluid">
+    <!--HEADER-->
+
+    <div class="row" id="cabecera">
+        <div class="col-sm-12 col-md-12 col-lg-12 mx-auto">
+            <div class="d-flex align-items-center bd-highlight">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row navbar-light bg-light">
+        <div class=" col-lg-12 mx-auto" style="padding-right: 0px; 
+                 padding-left: 0px;">
+            <nav class="navbar navbar-expand-lg  fixed-top" style="background: #01579b">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu_hamburguesa" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  text-white" id="menu_hamburguesa">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase" href="index.html"><img src="img/icono.png" width="40" height="40" alt=""><span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase" href="index.html"> inicio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase" href="login.html">Login<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase" href="registrar.html">Registrar<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white text-uppercase" href="lista_productos.html">Listado de productos<span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!--HEADER-->
+
+
+    <!--BODY-->
+    <!-- DATOS DE REGISTRO:
+       Nombre, tipo, cantidad, precio, oferta, descripcion, img
+       -->
+    <form style="margin-top: 6em;">
+       <h1  style="text-align: center">Registrar producto</h1>
+        <div class="form-row col-md-12 col-lg-6 mx-auto">
+            <div class="form-group col-md-9">
+                <label for="inputEmail4">Nombre</label>
+                <input type="text" class="form-control" id="inputEmail4" required>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputPassword4">Tipo</label>
+                <select id="inputPassword4" class="form-control" required>
+                    <option selected>Escoge...</option>
+                    <option>Frigorifico</option>
+                    <option>Bollería</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group  col-md-12 col-lg-6 mx-auto">
+            <label for="inputAddress">Descripción</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Características del producto" required>
+        </div>
+        <div class="form-row col-md-10 col-lg-6 mx-auto">
+            <div class="form-group col-lg-10 col-md-10 col-sm-10">
+                <label for="formControlRange">Cantidad de productos</label>
+            <input type="range" class="form-control-range" id="formControlRange" required>
+            </div>
+            <div class="form-group col-lg-2 col-md-2 col-sm-2">
+                            <label for="inputEmail4"></label>
+                            <input type="text" class="form-control text-center" id="inputProductos4" placeholder="1" >
+            </div>
+        </div>
+        <div class="form-group  col-md-10 col-lg-4 mx-auto">
+            
+        </div>
+        <div class="form-row  col-md-12 col-lg-6 mx-auto">
+            <div class="form-group col-md-6">
+                <label for="inputCity">Precio</label>
+                <input  class="form-control" id="inputCity" type="number" min="1" pattern="^[0-9]+" required>
+            </div>
+            <div class="form-group col-md-4 ">
+                <label for="inputState">Oferta</label>
+                <select id="inputState" class="form-control" required>
+                   <option selected>Sin oferta</option>
+                    <option>10%</option>
+                    <option>20%</option>
+                    </select> </div> <div class="form-group col-md-2">
+                        <label for="inputZip">Url img</label>
+                        <input type="text" class="form-control" id="inputZip" >
+            </div>
+        </div>
+        <div class="form-group  col-md-12 col-lg-6 mx-auto">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck" >
+                <label class="form-check-label" for="gridCheck">
+                    Confirmar registro
+                </label>
+            </div>
+        </div>
+        <div class="form-row  col-md-12 col-lg-6 mx-auto">
+            <button type="submit" class="btn btn-primary ">Registrar</button>
+        </div>
+
+    </form>
+    <!--BODY-->
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.light {
+	background-color: white;
+	color: black;
+}
+
+.dark {
+	background-color: black;
+	color: white;
+}
+
+.gray {
+	background-color: lightgray;
+	color: darkgray;
+}
+
+main {
+	padding-top: 4em;
+}
